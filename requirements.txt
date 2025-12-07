@@ -1,0 +1,6 @@
+llama-index
+ollama
+nest_asyncio
+llama_index.embeddings.huggingface
+llama_index.llms.ollama
+hf_xet
