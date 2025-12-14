@@ -2,5 +2,6 @@ llama-index
 ollama
 nest_asyncio
 llama_index.embeddings.huggingface
+llama-index-llms-google-genai
 llama_index.llms.ollama
 hf_xet
