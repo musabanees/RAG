@@ -5,3 +5,7 @@ llama_index.embeddings.huggingface
 llama-index-llms-google-genai
 llama_index.llms.ollama
 hf_xet
+chromadb
+cohere
+llama-index-llms-cohere
+llama-index-embeddings-cohere
