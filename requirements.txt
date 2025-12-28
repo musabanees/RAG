@@ -9,3 +9,6 @@ chromadb
 cohere
 llama-index-llms-cohere
 llama-index-embeddings-cohere
+playwright
+crawl4ai
+newspaper4k
