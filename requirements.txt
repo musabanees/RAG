@@ -12,3 +12,8 @@ llama-index-embeddings-cohere
 playwright
 crawl4ai
 newspaper4k
+firecrawl-py
+jedi
+llama_index.readers.web
+llama-index-tools-google
+lxml-html-clean
