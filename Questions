@@ -1,3 +1,16 @@
 1. Why we take the chunk_size and what is the best chunk_size to use? DONE
 2. Why we use the overlapping and what is the use of that? DONE
-3. Why we use the relationships in llamaindex?
+3. Why we use the relationships in llamaindex? DONE
+
+NEED TO 
+Chunking Strategy
+In a previous version of the AI Tutor, we chunked all data, no matter the content, into paragraph-sub-sections and retrieved the top 5 chunks across the knowledge base. However, this approach often led to incomplete context and short, unsatisfactory answers.
+
+To address this, we introduced a new tagging system. While we still chunk all data into sections of 800 tokens with a 0-token overlap between chunks, we now programmatically tag each chunk with a “retrieve_document” flag, which is set to True for content like tutorials that should be retrieved in their entirety and False for modular content like class methods that can be retrieved in chunks.
+
+This new approach helps solve issues like the following scenario: If a student asks how to fine-tune a specific LLM, the old system might only retrieve a tutorial’s introduction and middle part because they contain the word ‘fine-tuning.’ This will lead to the chatbot missing essential steps and context needed for a thorough answer. With this new system, when the “retrieve_document” flag is set to True for tutorials, the entire fine-tuning guide would be retrieved, ensuring the chatbot has all the relevant context to answer the student’s question in detail.
+
+In the data preprocessing, we perform the following
+* Correct the spelling
+* Remove the sentive information
+* 

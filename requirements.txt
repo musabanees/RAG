@@ -17,3 +17,4 @@ jedi
 llama_index.readers.web
 llama-index-tools-google
 lxml-html-clean
+llama-parse
