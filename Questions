@@ -1,6 +1,16 @@
 1. Why we take the chunk_size and what is the best chunk_size to use? DONE
 2. Why we use the overlapping and what is the use of that? DONE
 3. Why we use the relationships in llamaindex? DONE
+4. How we can reduce the tokens in the generation and reduce the overall cost in the RAG Systems
+
+
+
+
+
+
+
+
+
 
 NEED TO 
 Chunking Strategy
@@ -13,4 +23,3 @@ This new approach helps solve issues like the following scenario: If a student a
 In the data preprocessing, we perform the following
 * Correct the spelling
 * Remove the sentive information
-* 
